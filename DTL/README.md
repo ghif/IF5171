@@ -5,3 +5,11 @@ Di sini teman-teman akan melakukan eksplorasi bagaimana mengimplementasikan algo
 
 
 ## Pre-requisites
+- Python 3.x.x
+- Scikit-learn ??
+- Jupyter notebook
+
+## Project #1: More Accurate Census Income
+
+
+## Project #2
