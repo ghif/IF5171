@@ -5,7 +5,7 @@ Di sini teman-teman akan melakukan eksplorasi bagaimana mengimplementasikan algo
 
 ## Main Dependencies
 
-* Skip this part if your working environment has been ready *
+-- *Skip this part if your working environment has been ready* --
 
 Apabila Anda mengerjakannya di PC/laptop masing-masing, pastikan working environment nya memiliki tools / libraries sebagai berikut:
 - [Python 3.x.x](https://www.python.org/)
