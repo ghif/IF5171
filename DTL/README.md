@@ -9,7 +9,7 @@ Di sini teman-teman akan melakukan eksplorasi bagaimana mengimplementasikan algo
 
 Apabila Anda mengerjakannya di PC/laptop masing-masing, pastikan working environment nya memiliki tools / libraries sebagai berikut:
 - [Python 3.x.x](https://www.python.org/)
-- [Pandas][https://pandas.pydata.org/]
+- [Pandas](https://pandas.pydata.org/)
 - [Scikit-learn 1.x.x](https://scikit-learn.org/stable/)
 - [Jupyter notebook](https://jupyter.org/)
 
