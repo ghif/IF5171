@@ -32,7 +32,8 @@ Dengan menyelesaikan tantangan tersebut, peluang skor yang Anda akan dapatkan ad
 Anda perlu mengumpulkan deliverables berikut:
 - python notebook script (*.ipynb*)
 - stored model (dalam bentuk file persistent)
-yang disimpan pada sebuah zip file dengan format ([NIM]-[NAMA]-IF5171-DTLEM-1.zip) untuk disubmit ke platform Edunex.
+
+yang disimpan pada sebuah zip file dengan format __([NIM]-[NAMA]-IF5171-DTLEM-1.zip)__ untuk disubmit ke platform Edunex.
 
 ## Project #2
 
