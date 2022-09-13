@@ -4,11 +4,17 @@ Selamat datang pada direktori belajar mandiri / praktikum untuk topik Decision T
 Di sini teman-teman akan melakukan eksplorasi bagaimana mengimplementasikan algoritma DTL dan ensemble methods dalam bahasa pemrograman Python dengan menggunakan Jupyter notebook.
 
 ## Dependencies
+
+* Skip this part if your environment has been ready *
+
 Apabila Anda mengerjakannya di PC/laptop masing-masing, pastikan working environment nya memiliki tools / libraries sebagai berikut:
 - Python 3.x.x
 - Pandas 
 - Scikit-learn ??
 - Jupyter notebook
+
+## Warming Up
+Implementasi kode dari problem __loan decision__ yang dibahas di kelas dapat Anda lihat pada file `loan.ipynb`. Silakan dipelajari sebagai *getting started* bagi yang belum familiar dengan Python dan jupyter notebook.
 
 ## Project #1: Census Income Prediction
 Terdapat suatu dataset bernama Census Income, yang berisi personal profil dari beberapa sampel penduduk. Namun demikian, informasi mengenai pendapatan masih belum tersedia. Dataset Census Income dapat diakses di https://archive.ics.uci.edu/ml/datasets/census+income, yang sudah dibagi menjadi training (adult.data) dan test data (adult.test).
