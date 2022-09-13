@@ -22,7 +22,8 @@ Untuk linux / mac user, jupyter notebook yang sudah ter-install dapat dijalankan
 
 
 ## Project #1: Census Income Prediction
-Terdapat suatu dataset bernama Census Income, yang berisi personal profil dari beberapa sampel penduduk. Namun demikian, informasi mengenai pendapatan masih belum tersedia. Dataset Census Income dapat diakses di https://archive.ics.uci.edu/ml/datasets/census+income, yang sudah dibagi menjadi training (adult.data) dan test data (adult.test).
+Terdapat suatu dataset bernama Census Income, yang berisi personal profil dari beberapa sampel penduduk. 
+Namun demikian, informasi mengenai pendapatan masih belum tersedia. Dataset Census Income dapat diakses di https://archive.ics.uci.edu/ml/datasets/census+income, yang sudah dibagi menjadi training (adult.data) dan test data (adult.test).
 
 Anda mendapatkan tantangan untuk menghasilkan model machine learning yang dapat memprediksi apakah pendapatan pertahun dari seseorang di atas atau di bawah $50k.
 Performa yang diinginkan adalah akurasi >= 90% pada test data, karena dianggap cukup untuk bisa mengurangi pekerjaan manual yang mesti dilakukan.
@@ -43,6 +44,7 @@ Dengan menyelesaikan tantangan tersebut, peluang skor yang Anda akan dapatkan ad
 Anda perlu mengumpulkan deliverables berikut:
 - python notebook script (*.ipynb*)
 - stored model (dalam bentuk file persistent)
+- predicted output dalam bentuk tabel dengan 2 kolom: 'Id' dan 'Prediction' (*.csv)
 
 yang disimpan pada sebuah zip file dengan format __([NIM]-[NAMA]-IF5171-DTLEM-1.zip)__ untuk disubmit ke platform Edunex.
 
