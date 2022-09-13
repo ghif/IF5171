@@ -21,7 +21,7 @@ Untuk linux / mac user, jupyter notebook yang sudah ter-install dapat dijalankan
 > jupyter notebook
 
 
-## Project #1: Census Income Prediction
+## Project #1: Census Income Prediction (Bobot: 70%)
 Terdapat suatu dataset bernama Census Income, yang berisi personal profil dari beberapa sampel penduduk. 
 Namun demikian, informasi mengenai pendapatan masih belum tersedia. Dataset Census Income dapat diakses di https://archive.ics.uci.edu/ml/datasets/census+income, yang sudah dibagi menjadi training (adult.data) dan test data (adult.test).
 
@@ -48,6 +48,21 @@ Anda perlu mengumpulkan deliverables berikut:
 
 yang disimpan pada sebuah zip file dengan format __([NIM]-[NAMA]-IF5171-DTLEM-1.zip)__ untuk disubmit ke platform Edunex.
 
-## Project #2
+## Project #2: Customer Churn Prediction (Bobot: 30%)
 
-??
+Pada studi kasus perbankan, salah satu hal yang cukup penting dijaga adalah mempertahankan nasabah selama mungkin. 
+Semakin banyak nasabah yang menjadi tidak aktif atau tidak lagi menjadi nasabah (*churn*), maka semakin besar potensi kerugian yang dihasilkan.
+
+Identifikasi dini apakah seorang nasabah berpotensi non-aktif (biasanya dalam kurun waktu 6 bulan ke depan) akan sangat bermanfaat bagi *account/sales officer* untuk menindaklanjuti dalam bentuk layanan ekstra atau penawaran produk sehingga dapat meningkatkan *customer experience*.
+
+Sebagai seorang *data science* di salah satu bank terbesar di Indonesia, Anda memiliki ide untuk mengumpulkan *historical data* lalu membuat sebuah model ML untuk memprediksi hal tersebut, sehingga membantu para *account officer* untuk melakukan tindak lanjut yang lebih terukur.
+
+[churn prediction](https://1drv.ms/u/s!AgX5GEtworUahSBOjjue1xZEHri_?e=5mAEAc)
+
+
+
+
+
+
+
+Dataset churn 
