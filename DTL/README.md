@@ -3,18 +3,23 @@
 Selamat datang pada direktori belajar mandiri / praktikum untuk topik Decision Tree Learning (DTL) dan Ensemble Methods yang sudah kita bahas pada pertemuan ke-3 (Senin, 12 September 2022, 13:00 - 15:00) kuliah IF5171.
 Di sini teman-teman akan melakukan eksplorasi bagaimana mengimplementasikan algoritma DTL dan ensemble methods dalam bahasa pemrograman Python dengan menggunakan Jupyter notebook.
 
-## Dependencies
+## Main Dependencies
 
-* Skip this part if your environment has been ready *
+* Skip this part if your working environment has been ready *
 
 Apabila Anda mengerjakannya di PC/laptop masing-masing, pastikan working environment nya memiliki tools / libraries sebagai berikut:
-- Python 3.x.x
-- Pandas 
-- Scikit-learn ??
-- Jupyter notebook
+- [Python 3.x.x](https://www.python.org/)
+- [Pandas][https://pandas.pydata.org/]
+- [Scikit-learn 1.x.x](https://scikit-learn.org/stable/)
+- [Jupyter notebook](https://jupyter.org/)
 
 ## Warming Up
-Implementasi kode dari problem __loan decision__ yang dibahas di kelas dapat Anda lihat pada file `loan.ipynb`. Silakan dipelajari sebagai *getting started* bagi yang belum familiar dengan Python dan jupyter notebook.
+Implementasi kode dari problem __loan decision__ yang dibahas di kelas dapat Anda lihat pada file `loan.ipynb`. Silakan dipelajari sebagai *getting started* bagi yang belum familiar dengan Python dan [jupyter notebook](https://www.edureka.co/blog/wp-content/uploads/2018/10/Jupyter_Notebook_CheatSheet_Edureka.pdf). 
+
+Untuk linux / mac user, jupyter notebook yang sudah ter-install dapat dijalankan pada *shell command*:
+
+> jupyter notebook
+
 
 ## Project #1: Census Income Prediction
 Terdapat suatu dataset bernama Census Income, yang berisi personal profil dari beberapa sampel penduduk. Namun demikian, informasi mengenai pendapatan masih belum tersedia. Dataset Census Income dapat diakses di https://archive.ics.uci.edu/ml/datasets/census+income, yang sudah dibagi menjadi training (adult.data) dan test data (adult.test).
