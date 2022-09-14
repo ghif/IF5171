@@ -46,7 +46,7 @@ Anda perlu mengumpulkan deliverables berikut:
 - Stored model (dalam bentuk [persistent file](https://scikit-learn.org/stable/model_persistence.html))
 - Predicted output dalam bentuk tabel dengan 2 kolom: 'Id' dan 'Prediction' (*.csv)
 
-yang disimpan pada sebuah zip file dengan format __([NIM]-[NAMA]-IF5171-DTLEM-1.zip)__ untuk disubmit ke platform Edunex.
+yang disimpan pada sebuah zip file dengan format __([NIM]-[NAMALENGKAP]-IF5171-DTLEM-1.zip)__ untuk disubmit ke platform Edunex.
 
 ## Project #2: Bank Customer Churn Prediction (Bobot: 30%)
 
@@ -70,7 +70,7 @@ Deliverable yang perlu Anda hasilkan adalah:
 - Stored model (dalam bentuk [persistent file](https://scikit-learn.org/stable/model_persistence.html))
 - Predicted output dalam bentuk tabel dengan 2 kolom: 'Id' dan 'Prediction' (*.csv)
 
-yang disimpan pada sebuah zip file dengan format __([NIM]-[NAMA]-IF5171-DTLEM-2.zip)__ untuk disubmit ke platform Edunex.
+yang disimpan pada sebuah zip file dengan format __([NIM]-[NAMALENGKAP]-IF5171-DTLEM-2.zip)__ untuk disubmit ke platform Edunex.
 
 Implementasi yang dilakukan, tertuang pada *.ipynb* script, sekurang-kurangnya meliputi:
 1. *Data preparation*: __(15 poin)__
@@ -102,4 +102,7 @@ Selamat bermain! :)
 
 
 ## Submission
-??
+1. 2 file yang di-submit via platform Edunex:
+	- Project #1: [NIM]-[NAMALENGKAP]-IF5171-DTLEM-1.zip
+	- Project #2: [NIM]-[NAMALENGKAP]-IF5171-DTLEM-2.zip
+2. Deadline: Senin, 19 September 2022, pukul 23:59 WIB
