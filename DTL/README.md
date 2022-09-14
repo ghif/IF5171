@@ -50,7 +50,7 @@ yang disimpan pada sebuah zip file dengan format __([NIM]-[NAMA]-IF5171-DTLEM-1.
 
 ## Project #2: Customer Churn Prediction (Bobot: 30%)
 
-Pada studi kasus perbankan, salah satu hal yang cukup penting dijaga adalah mempertahankan nasabah selama mungkin. 
+Pada studi kasus perbankan, salah satu hal yang penting untuk dijaga adalah mempertahankan nasabah selama mungkin, i.e., [*customer lifetime value*](https://en.wikipedia.org/wiki/Customer_lifetime_value) yang tinggi. 
 Semakin banyak nasabah yang menjadi tidak aktif atau tidak lagi menjadi nasabah (*churn*), maka semakin besar potensi kerugian yang dihasilkan.
 
 Identifikasi dini apakah seorang nasabah berpotensi non-aktif (biasanya dalam kurun waktu 6 bulan ke depan) akan sangat bermanfaat bagi *account/sales officer* untuk menindaklanjuti dalam bentuk layanan ekstra atau penawaran produk sehingga dapat meningkatkan *customer experience*.
