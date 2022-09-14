@@ -98,7 +98,7 @@ Hasil yang didapatkan sebagai berikut:
 
 Anda diharapkan untuk bisa menghasilkan performa lebih baik dibandingkan *first pass* di atas.
 
-Selamat bermain :) 
+Selamat bermain! :) 
 
 
 ## Submission
