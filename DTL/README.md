@@ -102,7 +102,7 @@ Selamat bermain! :)
 
 
 ## Submission
-1. 2 file yang di-submit via platform Edunex:
+1. Dua (2) files yang di-submit via platform Edunex:
 	- Project #1: __[NIM]-[NAMALENGKAP]-IF5171-DTLEM-1.zip__
 	- Project #2: __[NIM]-[NAMALENGKAP]-IF5171-DTLEM-2.zip__
 2. Deadline: __Jumat, 16 September 2022, pukul 23:59 WIB__
