@@ -42,27 +42,47 @@ Dengan menyelesaikan tantangan tersebut, peluang skor yang Anda akan dapatkan ad
 
 
 Anda perlu mengumpulkan deliverables berikut:
-- python notebook script (*.ipynb*)
-- stored model (dalam bentuk file persistent)
-- predicted output dalam bentuk tabel dengan 2 kolom: 'Id' dan 'Prediction' (*.csv)
+- Python notebook script (*.ipynb*)
+- Stored model (dalam bentuk [persistent file](https://scikit-learn.org/stable/model_persistence.html))
+- Predicted output dalam bentuk tabel dengan 2 kolom: 'Id' dan 'Prediction' (*.csv)
 
 yang disimpan pada sebuah zip file dengan format __([NIM]-[NAMA]-IF5171-DTLEM-1.zip)__ untuk disubmit ke platform Edunex.
 
-## Project #2: Customer Churn Prediction (Bobot: 30%)
+## Project #2: Bank Customer Churn Prediction (Bobot: 30%)
 
 Pada studi kasus perbankan, salah satu hal yang penting untuk dijaga adalah mempertahankan nasabah selama mungkin, i.e., [*customer lifetime value*](https://en.wikipedia.org/wiki/Customer_lifetime_value) yang tinggi. 
 Semakin banyak nasabah yang menjadi tidak aktif atau tidak lagi menjadi nasabah (*churn*), maka semakin besar potensi kerugian yang dihasilkan.
 
 Identifikasi dini apakah seorang nasabah berpotensi non-aktif (biasanya dalam kurun waktu 6 bulan ke depan) akan sangat bermanfaat bagi *account/sales officer* untuk menindaklanjuti dalam bentuk layanan ekstra atau penawaran produk sehingga dapat meningkatkan *customer experience*.
 
-Sebagai seorang *data science* di salah satu bank terbesar di Indonesia, Anda memiliki ide untuk mengumpulkan *historical data* lalu membuat sebuah model ML untuk memprediksi hal tersebut, sehingga membantu para *account officer* untuk melakukan tindak lanjut yang lebih terukur.
 
-[churn prediction](https://1drv.ms/u/s!AgX5GEtworUahSBOjjue1xZEHri_?e=5mAEAc)
+Sebagai seorang *data scientist*, Anda memiliki ide untuk mengimplementasikan sebuah model ML prediksi *churn* sehingga membantu para *account officer* dapat terbantu untuk melakukan tindak lanjut yang lebih terukur.
+Di sini tersedia dataset *real world* [customer churns](https://1drv.ms/u/s!AgX5GEtworUahSBOjjue1xZEHri_?e=5mAEAc) dari salah satu bank besar di Indonesia, yang terdiri dari 2 file:
+- churn_train.csv: 100.000 baris dan 126 atribut (125 kolom fitur dan 1 kolom target 'y')
+- churn_test.csv: 25.000 baris
+
+Atribut $x_0 - x_{124}$ merupakan info nasabah yang telah dinormalisasi dan dirahasiakan nama atributnya untuk menjaga *privacy* dan *security*.
+
+Deliverable yang perlu Anda hasilkan adalah:
+- Python notebook implementation script (*.ipynb*)
+- Stored model (dalam bentuk [persistent file](https://scikit-learn.org/stable/model_persistence.html))
+- Predicted output dalam bentuk tabel dengan 2 kolom: 'Id' dan 'Prediction' (*.csv)
+
+yang disimpan pada sebuah zip file dengan format __([NIM]-[NAMA]-IF5171-DTLEM-2.zip)__ untuk disubmit ke platform Edunex.
+
+Implementasi yang dilakukan, tertuang pada *.ipynb* script, sekurang-kurangnya meliputi:
+1. *Data preparation*: __(15 poin)__
+2. *Exploratory Data Analysis*: __(20 poin)__
+3. *Feature Engineering*: __(30 poin)__
+4. *Modeling*: __(20 poin)__
+5. *Evaluation* yang menyertakan [skor-skor berikut](https://www.baeldung.com/cs/ml-accuracy-vs-auc): __(15 poin)__
+	- Accuracy
+	- Precision
+	- Recall
+	- False Positive Rate (FPR)
+	- AUC
+	- Grafik [Receiver Operating Characteristic (ROC) curve](https://developers.google.com/machine-learning/crash-course/classification/roc-and-auc)
 
 
-
-
-
-
-
-Dataset churn 
+## Submission
+??
