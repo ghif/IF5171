@@ -86,7 +86,8 @@ Implementasi yang dilakukan, tertuang pada *.ipynb* script, sekurang-kurangnya m
 	- Grafik [Receiver Operating Characteristic (ROC) curve](https://developers.google.com/machine-learning/crash-course/classification/roc-and-auc)
 
 Sebagai contoh
-![alt text](roc_init.png "ROC Curve"){width=50}
+<img src="roc_init.png"  width=50% height=50%>
+<!-- ![alt text](roc_init.png "ROC Curve"){width=50} -->
 
 
 ## Submission
