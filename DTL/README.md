@@ -85,9 +85,20 @@ Implementasi yang dilakukan, tertuang pada *.ipynb* script, sekurang-kurangnya m
 	- AUC
 	- Grafik [Receiver Operating Characteristic (ROC) curve](https://developers.google.com/machine-learning/crash-course/classification/roc-and-auc)
 
-Sebagai contoh
+Sebagai tambahan konteks, telah dilakukan *first pass*/uji coba awal dengan menggunakan algoritma XGBoost dan proses *feature engineering* yang sangat sederhana. 
+Hasil yang didapatkan sebagai berikut:
+- Accuracy: 0.85
+- Precision: 0.55
+- Recall: 0.55
+- FPR: 0.09
+- AUC: 0.73
+
 <img src="roc_init.png"  width=50% height=50%>
 <!-- ![alt text](roc_init.png "ROC Curve"){width=50} -->
+
+Anda diharapkan untuk bisa menghasilkan performa lebih baik dibandingkan *first pass* di atas.
+
+Selamat bermain :) 
 
 
 ## Submission
