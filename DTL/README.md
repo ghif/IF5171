@@ -63,6 +63,8 @@ Di sini tersedia dataset *real world* [customer churns](https://1drv.ms/u/s!AgX5
 
 Atribut $x_0 - x_{124}$ merupakan info nasabah yang telah dinormalisasi dan dirahasiakan nama atributnya untuk menjaga *privacy* dan *security*.
 
+Anda dipersilahkan untuk menggunakan algoritma DTL atau ensemble methods apapun yang menurut Anda mampu memberikan performa terbaik.
+
 Deliverable yang perlu Anda hasilkan adalah:
 - Python notebook implementation script (*.ipynb*)
 - Stored model (dalam bentuk [persistent file](https://scikit-learn.org/stable/model_persistence.html))
@@ -82,6 +84,9 @@ Implementasi yang dilakukan, tertuang pada *.ipynb* script, sekurang-kurangnya m
 	- False Positive Rate (FPR)
 	- AUC
 	- Grafik [Receiver Operating Characteristic (ROC) curve](https://developers.google.com/machine-learning/crash-course/classification/roc-and-auc)
+
+Sebagai contoh
+![alt text](roc_init.png "ROC Curve")
 
 
 ## Submission
