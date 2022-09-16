@@ -93,7 +93,7 @@ Hasil yang didapatkan sebagai berikut:
 - FPR: 0.09
 - AUC: 0.73
 
-<img src="roc_init.png"  width=50% height=50%>
+<img src="roc_init.png"  width=75% height=75%>
 <!-- ![alt text](roc_init.png "ROC Curve"){width=50} -->
 
 Anda diharapkan untuk bisa menghasilkan performa lebih baik dibandingkan *first pass* di atas.
