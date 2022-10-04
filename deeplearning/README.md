@@ -27,6 +27,7 @@ Anda diminta untuk melakukan beberapa percobaan pada situasi sebagai berikut:
 Situasi ini mengasumsikan *training data* dan *test data* memiliki kondisi / distribusi yang tidak jauh berbeda.
 
 Lakukanlah percobaan ML dengan setting-an berikut:
+
 1. __MNIST-to-MNIST__ 
 Training dan test data keduanya berasal dari dataset MNIST (*MNIST train* --> *MNIST test*).
 
@@ -37,6 +38,7 @@ Training dan test data keduanya berasal dari dataset SVHN (*SVHN train* --> *SVH
 *Cross-domain recognition* merupakan situasi yang menggambarkan *dataset bias*, dimana *training data* berasal dari sumber yang berbeda dengan *test data*.
 
 Lakukanlah percobaan ML dengan setting-an berikut:
+
 3. __SVHN-to-MNIST__
 Training data diambil dari SVHN, namun test data diambil dari MNIST (*SVHN train* --> *MNIST test*)
 
