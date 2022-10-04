@@ -93,8 +93,12 @@ Setelah itu, bermunculanlah berbagai model *deep learning* seperti AlexNet denga
 
 Model-model *deep learning* seperti yang disebutkan dapat diistilahkan dengan __backbone net__. Mengapa demikian?
 Karena ada temuan yang cukup fenomenal terkait model-model tersebut, yaitu dapat dimanfaatkan sebagai *backbone* untuk melakukan pekerjaan-pekerjaan lainnya terkait *computer vision* antara lain *object classification*, *detection*, *segmentation*, dan sebagainya.
-Dengan kata lain, *backbone net* yang sudah dilatih pada dataset ImageNet, yang terdiri dari 1000 kelas objek dengan total 1.2juta sampel data, memiliki sifat *transferable*!
+Dengan kata lain, *backbone net* yang sudah dilatih pada dataset ImageNet, yang terdiri dari 1000 kelas objek dengan total \~1.2 juta sampel data, memiliki sifat *transferable*!
 
+
+
+
+https://pytorch.org/tutorials/beginner/transfer_learning_tutorial.html
 
 .....
 
