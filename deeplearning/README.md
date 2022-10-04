@@ -98,11 +98,17 @@ Karena ada temuan yang cukup fenomenal terkait model-model tersebut, yaitu dapat
 Dengan kata lain, *backbone net* yang sudah dilatih pada dataset ImageNet, yang terdiri dari 1000 kelas objek dengan total \~1.2 juta sampel data, memiliki sifat *transferable*!
 
 Temuan di atas melahirkan cara pragmatis yang disebut dengan __transfer learning__, yaitu memanfaatkan *backbone net* untuk menyelesaikan masalah apapun, terutama pada domain yang memiliki jumlah data latih yang sedikit.
-Secara umum ada 2 cara untuk melakukan __transfer learning__ tersebut:
+Secara umum ada 2 metode untuk melakukan __transfer learning__ tersebut:
 1. Metode __finetuning__: menggunakan *backbone net*, lalu menjalankan *retraining* keseluruhan pada dataset tujuan.
 2. Metode __feature extraction__: menggunakan *backbone net* hanya sebagai *feature extractor*, lalu melatih *classifier* sederhana pada dataset tujuan.
 
-Pada project ini Anda dapat menguji efektifitas dari transfer learning dengan menggunakan PyTorch untuk membentuk model klasifikasi pada dataset [Office-31](https://faculty.cc.gatech.edu/~judy/domainadapt/) (dapat diunduh di [sini](https://wjdcloud.blob.core.windows.net/dataset/OFFICE31.zip))
+Pada project ini Anda dapat menguji efektifitas dari transfer learning dengan menggunakan PyTorch untuk membentuk model klasifikasi pada dataset [Office-31](https://faculty.cc.gatech.edu/~judy/domainadapt/) (dapat diunduh di [sini](https://wjdcloud.blob.core.windows.net/dataset/OFFICE31.zip)).
+Secara singkat, Office-31 merupakan dataset yang terdiri dari gambar objek yang diambil dari lingkungan perkantoran, dengan 3 domain berbeda: __amazon__, __dslr__, __webcam__.
+
+```
+#### Task
+Buatlah 2 model yang dilatih secara *transfer learning* dengan masing-masing metode di atas (*finetuning* dan *feature extraction*) untuk melakukan klasifikasi objek pada domain 
+```
 
 *Deliverables* yang dikumpulkan (Format: [NIM]-[NAMALENGKAP]-IF5171-DL-2.zip) 
 - 
