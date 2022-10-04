@@ -26,7 +26,8 @@ Pada konteks *visual recognition*, misalnya, 2 gambar yang memiliki objek yang s
 Terdapat istilah khusus yang menggambarkan kondisi tersebut, yaitu *dataset bias* [(Khosla et al. ECCV 2012)](https://people.csail.mit.edu/khosla/papers/eccv2012_khosla.pdf).
 
 <p align="center">
-<img src="mnist.png"  width="300" height="300">  <img src="svhn.png"  width="300" height="300">
+<img src="mnist.png"  width="300" height="300">  <img src="svhn.png"  width="300" height="300"> 
+
 MNIST and SVHN Digits
 </p>
 
