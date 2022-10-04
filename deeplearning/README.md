@@ -28,10 +28,12 @@ Situasi ini mengasumsikan *training data* dan *test data* memiliki kondisi / dis
 
 Lakukanlah percobaan ML dengan setting-an berikut:
 
-1. __MNIST-to-MNIST__ 
+1. __MNIST-to-MNIST__.
+
 Training dan test data keduanya berasal dari dataset MNIST (*MNIST train* --> *MNIST test*).
 
-2. __SVHN-to-SVHN__ 
+2. __SVHN-to-SVHN__.
+
 Training dan test data keduanya berasal dari dataset SVHN (*SVHN train* --> *SVHN test*).
 
 #### Cross-Domain Recognition
@@ -39,10 +41,12 @@ Training dan test data keduanya berasal dari dataset SVHN (*SVHN train* --> *SVH
 
 Lakukanlah percobaan ML dengan setting-an berikut:
 
-3. __SVHN-to-MNIST__
+3. __SVHN-to-MNIST__.
+
 Training data diambil dari SVHN, namun test data diambil dari MNIST (*SVHN train* --> *MNIST test*)
 
-4. __MNIST-to-SVHN__
+4. __MNIST-to-SVHN__.
+
 Training data diambil dari MNIST, namun test data diambil dari SVHN (*MNIST train* --> *SVHN test*)
 
 Pada masing-masing percobaan di atas, lakukanlah dengan model multilayer perceptrons (MLP) dan convolutional neural networks (ConvNet).
