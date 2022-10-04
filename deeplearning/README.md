@@ -4,6 +4,7 @@ Pada praktikum kali ini, teman-teman akan bermain-main dengan [PyTorch](https://
 Bagi yang belum familiar dengan PyTorch disarankan mempelajari konsep dasarnya dengan mengikuti [tutorial berikut](https://pytorch.org/tutorials/).
 
 
+
 ## Main Dependencies
 
 -- *Skip this part if your working environment has been ready* --
@@ -14,7 +15,8 @@ Apabila Anda mengerjakannya di PC/laptop masing-masing, pastikan working environ
 - [Jupyter Lab atau Jupyter Notebook](https://jupyter.org/)
 
 ## Warming Up
-Contoh *source code* yang sudah didiskusikan di kelas terkait pemanfaatan Pytorch untuk membangung model rekognisi MNIST handwritten digit dapat dilihat pada folder `src`.
+Contoh *source code* yang sudah didiskusikan di kelas terkait pemanfaatan Pytorch untuk membangun model rekognisi MNIST handwritten digit dapat dilihat pada folder [`src`](https://github.com/ghif/IF5171/tree/main/deeplearning/src).
+Silakan dipelajari dan dijalankan sebagai *getting started* jika dibutuhkan.
 
 
 ## Project #1: Transfer My Digit! (Bobot: 70%)
@@ -62,14 +64,14 @@ Dengan demikian ada total __8 percobaan__ yang perlu Anda lakukan.
 Anda dipersilakan berkreasi dalam melakukan manipulasi data/gambar (*grayscaling*, *resizing*, dsb) dan juga mengatur konfigurasi model *deep learning*, mencakup jumlah dan ukuran layer, pemilihan activation function, algoritma optimisasi, *hyper-parameter setting (learning rate, batch size)*, dan sebagainya, yang menurut Anda dapat memberikan akurasi yang terbaik dari tiap-tiap percobaan.
 
 *Deliverables* yang dikumpulkan (Format: [NIM]-[NAMALENGKAP]-IF5171-DL-1.zip) 
-- 8 *main script* (ipynb) yang mengimplementasikan masing-masing percobaan.
+- 8 *main training script* (ipynb) yang mengimplementasikan masing-masing percobaan.
 - 8 grafik/*line chart* (png/jpg) yang menggambarkan *progress* akurasi terhadap waktu/*epoch*: sumbu x menunjukkan *epoch*, sumbu y menggambarkan skor akurasi. Contoh:
 
 <Graph>
 
 
 Skor evaluasi pekerjaan yang Anda lakukan mempertimbangkan hal-hal sebagai berikut:
-1. (90 poin) Keterselesaian percobaan yang ditunjukkan dengan kelengkapan 8 main scripts + 8 line charts:
+1. (90 poin) Keterselesaian percobaan yang ditunjukkan dengan kelengkapan 8 *main training scripts* (*runnable without errors*) + 8 *line charts*:
 	- MNIST-to-MNIST (15)
 	- SVHN-to-SVHN (15)
 	- SVHN-to-MNIST (30)
