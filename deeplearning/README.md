@@ -3,14 +3,18 @@
 Pada praktikum kali ini, teman-teman akan bermain-main dengan [PyTorch](https://pytorch.org) untuk mengimplementasikan deep neural nets dalam menyelesaikan permasalahan visual recognition. 
 Bagi yang belum familiar dengan PyTorch disarankan mempelajari konsep dasarnya dengan mengikuti [tutorial berikut](https://pytorch.org/tutorials/).
 
+
 ## Main Dependencies
 
 -- *Skip this part if your working environment has been ready* --
 
 Apabila Anda mengerjakannya di PC/laptop masing-masing, pastikan working environment nya memiliki tools / libraries sebagai berikut:
 - [Python 3.x.x](https://www.python.org/)
+- [Pytorch](https://pytorch.org/) incl. torchvision
 - [Jupyter Lab atau Jupyter Notebook](https://jupyter.org/)
-- [Pytorch](https://pytorch.og)
+
+## Warming Up
+Contoh *source code* yang sudah didiskusikan di kelas terkait pemanfaatan Pytorch untuk membangung model rekognisi MNIST handwritten digit dapat dilihat pada folder `src`.
 
 
 ## Project #1: Transfer My Digit! (Bobot: 70%)
