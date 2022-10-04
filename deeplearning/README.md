@@ -67,17 +67,17 @@ Anda dipersilakan berkreasi dalam melakukan manipulasi data/gambar (*grayscaling
 - 8 *main training script* (ipynb) yang mengimplementasikan masing-masing percobaan.
 - 8 grafik/*line chart* (png/jpg) yang menggambarkan *progress* akurasi terhadap waktu/*epoch*: sumbu x menunjukkan *epoch*, sumbu y menggambarkan skor akurasi. Contoh:
 
-<Graph>
+![accuracy plot](plot_ex.png "Training vs Test Accuracy Plot Example")
 
 
 Skor evaluasi pekerjaan yang Anda lakukan mempertimbangkan hal-hal sebagai berikut:
-1. (90 poin) Keterselesaian percobaan yang ditunjukkan dengan kelengkapan 8 *main training scripts* (*runnable without errors*) + 8 *line charts*:
-	- MNIST-to-MNIST (15)
-	- SVHN-to-SVHN (15)
-	- SVHN-to-MNIST (30)
-	- MNIST-to-SVHN (30)
+1. (*90 poin*) Keterselesaian percobaan yang ditunjukkan dengan kelengkapan 8 *main training scripts* (*runnable without errors*) + 8 *line charts*:
+	- MNIST-to-MNIST (*15 poin*)
+	- SVHN-to-SVHN (*15 poin*)
+	- SVHN-to-MNIST (*30 poin*)
+	- MNIST-to-SVHN (*30 poin*)
 
-2. (Bonus: 10 poin) 1 percobaan tambahan untuk MNIST-to-SVHN: meningkatkan akurasi dari percobaan *baseline* yang Anda lakukan sebelumnya dengan memanfaatkan kombinasi dari metode *data augmentation*, *dropout regularization*, dan *batch normalization*.
+2. (Bonus: *10 poin*) 1 percobaan tambahan untuk MNIST-to-SVHN: meningkatkan akurasi dari percobaan *baseline* yang Anda lakukan sebelumnya dengan memanfaatkan kombinasi dari metode *data augmentation*, *dropout regularization*, dan *batch normalization*.
 
 ## Project #2: TODO (Bobot: 30%)
 
@@ -87,4 +87,4 @@ Skor evaluasi pekerjaan yang Anda lakukan mempertimbangkan hal-hal sebagai berik
 1. Dua (2) files yang di-submit via platform Edunex:
 	- Project #1: __[NIM]-[NAMALENGKAP]-IF5171-DL-1.zip__
 	- Project #2: __[NIM]-[NAMALENGKAP]-IF5171-DL-2.zip__
-2. Deadline: __Jumat, XX Oktober 2022, pukul 23:59 WIB__
+2. Deadline: __[Day], [Date] Oktober 2022, pukul 23:59 WIB__
