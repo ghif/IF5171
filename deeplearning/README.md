@@ -22,7 +22,7 @@ Terdapat istilah khusus yang menggambarkan kondisi tersebut, yaitu *dataset bias
 Kita mencoba untuk mensimulasikan situasi di atas dengan menggunakan 2 dataset handwritten digit: MNIST dan SVHN.
 Anda diminta untuk melakukan beberapa percobaan pada situasi sebagai berikut:
 
-```
+***
 ### In-Domain Recognition
 *In-domain recognition* merupakan standar konfigurasi *training-test* dengan menggunakan dataset yang sama. 
 Situasi ini mengasumsikan *training data* dan *test data* memiliki kondisi / distribusi yang tidak jauh berbeda.
@@ -49,11 +49,11 @@ Training data diambil dari SVHN, namun test data diambil dari MNIST (*SVHN train
 4. __MNIST-to-SVHN__.
 
 Training data diambil dari MNIST, namun test data diambil dari SVHN (*MNIST train* --> *SVHN test*)
-
+***
 
 Pada masing-masing percobaan di atas, lakukanlah dengan model multilayer perceptrons (MLP) dan convolutional neural networks (ConvNet).
 Dengan demikian ada total __8 percobaan__ yang perlu Anda lakukan.
-```
+
 
 Anda dipersilakan berkreasi dalam melakukan manipulasi data/gambar (*grayscaling*, *resizing*, dsb) dan juga mengatur konfigurasi model *deep learning*, mencakup jumlah dan ukuran layer, pemilihan activation function, algoritma optimisasi, *hyper-parameter setting (learning rate, batch size)*, dan sebagainya, yang menurut Anda dapat memberikan akurasi yang terbaik dari tiap-tiap percobaan.
 
