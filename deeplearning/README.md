@@ -74,8 +74,8 @@ Anda dipersilakan berkreasi dalam melakukan manipulasi data/gambar (*grayscaling
 - 8 *main training script* (ipynb) yang mengimplementasikan masing-masing percobaan.
 - 8 grafik/*line chart* (png/jpg) yang menggambarkan *progress* akurasi terhadap waktu/*epoch*: sumbu x menunjukkan *epoch*, sumbu y menggambarkan skor akurasi. Contoh:
 
-![accuracy plot](plot_ex.png "Training vs Test Accuracy Plot Example")
-
+<!-- ![accuracy plot](plot_ex.png "Training vs Test Accuracy Plot Example") -->
+<img src="plot_ex.png"  width="200" height="200">
 
 Skor evaluasi pekerjaan yang Anda lakukan mempertimbangkan hal-hal sebagai berikut:
 1. (__90 poin__) Keterselesaian percobaan yang ditunjukkan dengan kelengkapan 8 *main training scripts* (*runnable without errors*) + 8 *line charts*:
