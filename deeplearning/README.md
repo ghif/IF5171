@@ -108,7 +108,11 @@ Secara singkat, Office-31 merupakan dataset yang terdiri dari gambar objek yang 
 ***
 #### Task: klasifikasi objek __amazon-to-dslr__ 
 
-Buatlah 2 model yang dilatih secara *transfer learning* dengan masing-masing metode di atas (*finetuning* dan *feature extraction*) untuk membentuk *object classifier* pada domain __dslr__ (*test data*), dimana __amazon__ digunakan sebagai *training data*.
+Buatlah 2 model yang dilatih secara *transfer learning* dengan metode:
+1. Finetuning (__50 poin__)
+2. Feature extraction (__50 poin__)
+
+untuk membentuk *object classifier* pada domain __dslr__ (*test data*), dimana __amazon__ digunakan sebagai *training data*.
 
 *Hint*: ikuti tutorial berikut ini langkah demi langkah https://pytorch.org/tutorials/beginner/transfer_learning_tutorial.html, lalu ganti dataset-nya dengan Office-31, dimana domain __amazon__ sebagai *training data* dan __dslr__ sebagai *test data*.
 ***
@@ -116,7 +120,6 @@ Buatlah 2 model yang dilatih secara *transfer learning* dengan masing-masing met
 *Deliverables* yang dikumpulkan (Format: __[NIM]-[NAMALENGKAP]-IF5171-DL-2.zip__) 
 - 2 *main training scripts*, masing-masing mengimplementasikan metode *finetuning* dan *feature extraction*.
 - 2 grafik/*line chart* (png/jpg) yang menggambarkan *progress* akurasi __amazon-to-dslr__ terhadap waktu/*epoch*: sumbu x menunjukkan *epoch*, sumbu y menggambarkan skor akurasi.
-
 
 .....
 
