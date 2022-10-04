@@ -71,13 +71,13 @@ Anda dipersilakan berkreasi dalam melakukan manipulasi data/gambar (*grayscaling
 
 
 Skor evaluasi pekerjaan yang Anda lakukan mempertimbangkan hal-hal sebagai berikut:
-1. (*90 poin*) Keterselesaian percobaan yang ditunjukkan dengan kelengkapan 8 *main training scripts* (*runnable without errors*) + 8 *line charts*:
-	- MNIST-to-MNIST (*15 poin*)
-	- SVHN-to-SVHN (*15 poin*)
-	- SVHN-to-MNIST (*30 poin*)
-	- MNIST-to-SVHN (*30 poin*)
+1. (__90 poin__) Keterselesaian percobaan yang ditunjukkan dengan kelengkapan 8 *main training scripts* (*runnable without errors*) + 8 *line charts*:
+	- MNIST-to-MNIST (__15 poin__)
+	- SVHN-to-SVHN (__15 poin__)
+	- SVHN-to-MNIST (__30 poin__)
+	- MNIST-to-SVHN (__30 poin__)
 
-2. (Bonus: *10 poin*) 1 percobaan tambahan untuk MNIST-to-SVHN: meningkatkan akurasi dari percobaan *baseline* yang Anda lakukan sebelumnya dengan memanfaatkan kombinasi dari metode *data augmentation*, *dropout regularization*, dan *batch normalization*.
+2. (Bonus: __10 poin__) 1 percobaan tambahan untuk MNIST-to-SVHN: meningkatkan akurasi dari percobaan *baseline* yang Anda lakukan sebelumnya dengan memanfaatkan kombinasi dari metode *data augmentation*, *dropout regularization*, dan *batch normalization*.
 
 ## Project #2: TODO (Bobot: 30%)
 
