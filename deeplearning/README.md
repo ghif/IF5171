@@ -105,13 +105,14 @@ Secara umum ada 2 metode untuk melakukan __transfer learning__ tersebut:
 Pada project ini Anda dapat menguji efektifitas dari transfer learning dengan menggunakan PyTorch untuk membentuk model klasifikasi pada dataset [Office-31](https://faculty.cc.gatech.edu/~judy/domainadapt/) (dapat diunduh di [sini](https://wjdcloud.blob.core.windows.net/dataset/OFFICE31.zip)).
 Secara singkat, Office-31 merupakan dataset yang terdiri dari gambar objek yang diambil dari lingkungan perkantoran, dengan 3 domain berbeda: __amazon__, __dslr__, __webcam__.
 
-```
-#### Task
-Buatlah 2 model yang dilatih secara *transfer learning* dengan masing-masing metode di atas (*finetuning* dan *feature extraction*) untuk melakukan klasifikasi objek pada domain 
-```
+***
+#### Task: __amazon-to-dslr__
+
+Buatlah 2 model yang dilatih secara *transfer learning* dengan masing-masing metode di atas (*finetuning* dan *feature extraction*) untuk membentuk *object classifier* pada domain __dslr__ (*test data*), dimana __amazon__ digunakan sebagai *training data*.
+***
 
 *Deliverables* yang dikumpulkan (Format: [NIM]-[NAMALENGKAP]-IF5171-DL-2.zip) 
-- 
+- 2 
 
 
 
