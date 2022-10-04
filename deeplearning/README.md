@@ -70,7 +70,7 @@ Dengan demikian ada total __8 percobaan__ yang perlu Anda lakukan.
 
 Anda dipersilakan berkreasi dalam melakukan manipulasi data/gambar (*grayscaling*, *resizing*, dsb) dan juga mengatur konfigurasi model *deep learning*, mencakup jumlah dan ukuran layer, pemilihan activation function, algoritma optimisasi, *hyper-parameter setting (learning rate, batch size)*, dan sebagainya, yang menurut Anda dapat memberikan akurasi yang terbaik dari tiap-tiap percobaan.
 
-*Deliverables* yang dikumpulkan (Format: [NIM]-[NAMALENGKAP]-IF5171-DL-1.zip) 
+*Deliverables* yang dikumpulkan (Format: __[NIM]-[NAMALENGKAP]-IF5171-DL-1.zip__) 
 - 8 *main training script* (ipynb) yang mengimplementasikan masing-masing percobaan.
 - 8 grafik/*line chart* (png/jpg) yang menggambarkan *progress* akurasi terhadap waktu/*epoch*: sumbu x menunjukkan *epoch*, sumbu y menggambarkan skor akurasi. Contoh:
 
@@ -106,20 +106,17 @@ Pada project ini Anda dapat menguji efektifitas dari transfer learning dengan me
 Secara singkat, Office-31 merupakan dataset yang terdiri dari gambar objek yang diambil dari lingkungan perkantoran, dengan 3 domain berbeda: __amazon__, __dslr__, __webcam__.
 
 ***
-#### Task: __amazon-to-dslr__
+#### Task: klasifikasi objek __amazon-to-dslr__ 
 
 Buatlah 2 model yang dilatih secara *transfer learning* dengan masing-masing metode di atas (*finetuning* dan *feature extraction*) untuk membentuk *object classifier* pada domain __dslr__ (*test data*), dimana __amazon__ digunakan sebagai *training data*.
+
+*Hint*: ikuti tutorial berikut ini langkah demi langkah https://pytorch.org/tutorials/beginner/transfer_learning_tutorial.html, lalu ganti dataset-nya dengan Office-31, dimana domain __amazon__ sebagai *training data* dan __dslr__ sebagai *test data*.
 ***
 
-*Deliverables* yang dikumpulkan (Format: [NIM]-[NAMALENGKAP]-IF5171-DL-2.zip) 
-- 2 
+*Deliverables* yang dikumpulkan (Format: __[NIM]-[NAMALENGKAP]-IF5171-DL-2.zip__) 
+- 2 *main training scripts*, masing-masing mengimplementasikan metode *finetuning* dan *feature extraction*.
+- 2 grafik/*line chart* (png/jpg) yang menggambarkan *progress* akurasi __amazon-to-dslr__ terhadap waktu/*epoch*: sumbu x menunjukkan *epoch*, sumbu y menggambarkan skor akurasi.
 
-
-
-
-
-
-https://pytorch.org/tutorials/beginner/transfer_learning_tutorial.html
 
 .....
 
