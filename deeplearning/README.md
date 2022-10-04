@@ -25,7 +25,7 @@ Seringkali kita dihadapkan pada situasi dimana __source data__ (sumber data untu
 Pada konteks *visual recognition*, misalnya, 2 gambar yang memiliki objek yang sama boleh jadi memiliki "penampakan" atau variasi yang berbeda: warna, sudut pandang (*viewpoint*), corak (*style*), deformasi bentuk, dan sebagainya.
 Terdapat istilah khusus yang menggambarkan kondisi tersebut, yaitu *dataset bias* [(Khosla et al. ECCV 2012)](https://people.csail.mit.edu/khosla/papers/eccv2012_khosla.pdf).
 
-| <img src="mnist.png"  width="300" height="300"> | <img src="svhn.png"  width="300" height="300"> |
+| <img src="mnist.png"  width="300" height="300"> MNIST Digits| <img src="svhn.png"  width="300" height="300"> SVHN Digits|
 
 Kita mencoba untuk mensimulasikan situasi di atas dengan menggunakan 2 dataset handwritten digit: __MNIST__ dan __SVHN__.
 Anda diminta untuk melakukan beberapa percobaan pada situasi sebagai berikut:
