@@ -22,7 +22,8 @@ Terdapat istilah khusus yang menggambarkan kondisi tersebut, yaitu *dataset bias
 Kita mencoba untuk mensimulasikan situasi di atas dengan menggunakan 2 dataset handwritten digit: MNIST dan SVHN.
 Anda diminta untuk melakukan beberapa percobaan pada situasi sebagai berikut:
 
-#### In-Domain Recognition
+==
+### In-Domain Recognition
 *In-domain recognition* merupakan standar konfigurasi *training-test* dengan menggunakan dataset yang sama. 
 Situasi ini mengasumsikan *training data* dan *test data* memiliki kondisi / distribusi yang tidak jauh berbeda.
 
@@ -36,7 +37,7 @@ Training dan test data keduanya berasal dari dataset MNIST (*MNIST train* --> *M
 
 Training dan test data keduanya berasal dari dataset SVHN (*SVHN train* --> *SVHN test*).
 
-#### Cross-Domain Recognition
+### Cross-Domain Recognition
 *Cross-domain recognition* merupakan situasi yang menggambarkan *dataset bias*, dimana *training data* berasal dari sumber yang berbeda dengan *test data*.
 
 Lakukanlah percobaan ML dengan setting-an berikut:
@@ -48,6 +49,7 @@ Training data diambil dari SVHN, namun test data diambil dari MNIST (*SVHN train
 4. __MNIST-to-SVHN__.
 
 Training data diambil dari MNIST, namun test data diambil dari SVHN (*MNIST train* --> *SVHN test*)
+==
 
 Pada masing-masing percobaan di atas, lakukanlah dengan model multilayer perceptrons (MLP) dan convolutional neural networks (ConvNet).
 Dengan demikian ada total __8 percobaan__ yang perlu Anda lakukan.
@@ -68,7 +70,7 @@ Skor evaluasi pekerjaan yang Anda lakukan mempertimbangkan hal-hal sebagai berik
 	- SVHN-to-MNIST (30)
 	- MNIST-to-SVHN (30)
 
-2. (Bonus: 10 poin) 1 percobaan tambahan untuk MNIST-to-SVHN: meningkatkan akurasi dari percobaan *baseline* yang Anda lakukan sebelumnya dengan memanfaatkan kombinasi dari metode *data augmentation*, *dropout regularization*, dan*batch normalization*.
+2. (Bonus: 10 poin) 1 percobaan tambahan untuk MNIST-to-SVHN: meningkatkan akurasi dari percobaan *baseline* yang Anda lakukan sebelumnya dengan memanfaatkan kombinasi dari metode *data augmentation*, *dropout regularization*, dan *batch normalization*.
 
 ## Project #2: TODO (Bobot: 30%)
 
