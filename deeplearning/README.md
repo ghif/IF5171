@@ -108,7 +108,7 @@ Secara singkat, Office-31 merupakan dataset yang terdiri dari gambar objek yang 
 ***
 #### Task: klasifikasi objek __amazon-to-dslr__ 
 
-Buatlah 2 model yang dilatih secara *transfer learning* dengan metode:
+Buatlah 2 model yang dilatih secara *transfer learning* memanfaatkan model *resnet-18* sebagai *backbone net* dengan metode:
 1. Finetuning (__50 poin__)
 2. Feature extraction (__50 poin__)
 
