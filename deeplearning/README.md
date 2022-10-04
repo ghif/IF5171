@@ -26,10 +26,11 @@ Pada konteks *visual recognition*, misalnya, 2 gambar yang memiliki objek yang s
 Terdapat istilah khusus yang menggambarkan kondisi tersebut, yaitu *dataset bias* [(Khosla et al. ECCV 2012)](https://people.csail.mit.edu/khosla/papers/eccv2012_khosla.pdf).
 
 <p align="center">
-<img src="mnist.png"  width="300" height="300">  <img src="svhn.png"  width="300" height="300"> 
-
-MNIST and SVHN Digits
+	<img src="mnist.png"  width="300" height="300">  
+	<img src="svhn.png"  width="300" height="300"> 
 </p>
+
+<p align="center">MNIST and SVHN Digits</p>
 
 Kita mencoba untuk mensimulasikan situasi di atas dengan menggunakan 2 dataset handwritten digit: __MNIST__ dan __SVHN__.
 Anda diminta untuk melakukan beberapa percobaan pada situasi sebagai berikut:
