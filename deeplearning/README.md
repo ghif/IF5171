@@ -102,7 +102,7 @@ Secara umum ada 2 cara untuk melakukan __transfer learning__ tersebut:
 1. Metode __finetuning__: menggunakan *backbone net*, lalu menjalankan *retraining* keseluruhan pada dataset tujuan.
 2. Metode __feature extraction__: menggunakan *backbone net* hanya sebagai *feature extractor*, lalu melatih *classifier* sederhana pada dataset tujuan.
 
-Pada project ini Anda dapat menguji efektifitas dari transfer learning dengan menggunakan PyTorch untuk membentuk model klasifikasi pada dataset Office-31.
+Pada project ini Anda dapat menguji efektifitas dari transfer learning dengan menggunakan PyTorch untuk membentuk model klasifikasi pada dataset [Office-31](https://faculty.cc.gatech.edu/~judy/domainadapt/) (dapat diunduh di [sini](https://wjdcloud.blob.core.windows.net/dataset/OFFICE31.zip))
 
 *Deliverables* yang dikumpulkan (Format: [NIM]-[NAMALENGKAP]-IF5171-DL-2.zip) 
 - 
