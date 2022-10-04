@@ -19,7 +19,7 @@ Contoh *source code* yang sudah didiskusikan di kelas terkait pemanfaatan Pytorc
 Silakan dipelajari dan dijalankan sebagai *getting started* jika dibutuhkan.
 
 
-## Project #1: Transfer My Digit! (Bobot: 70%)
+## Project #1: Transfer My Digit (Bobot: 70%)
 
 Seringkali kita dihadapkan pada situasi dimana __source data__ (sumber data untuk melatih model ML) dengan __target data__ (tempat dimana model ML tersebut diaplikasikan) memiliki kondisi yang berbeda, walaupun mencoba untuk mengerjakan *task* yang sama.
 Pada konteks *visual recognition*, misalnya, 2 gambar yang memiliki objek yang sama boleh jadi memiliki "penampakan" atau variasi yang berbeda: warna, sudut pandang (*viewpoint*), corak (*style*), deformasi bentuk, dan sebagainya.
@@ -86,7 +86,15 @@ Skor evaluasi pekerjaan yang Anda lakukan mempertimbangkan hal-hal sebagai berik
 
 2. (Bonus: __10 poin__) 1 percobaan tambahan untuk MNIST-to-SVHN: meningkatkan akurasi dari percobaan *baseline* yang Anda lakukan sebelumnya dengan memanfaatkan kombinasi dari metode *data augmentation*, *dropout regularization*, dan *batch normalization*.
 
-## Project #2: TODO (Bobot: 30%)
+## Project #2: Transfer My Deep Learning for Recognizing Everything (Bobot: 30%)
+
+Pada tahun 2012, *deep learning* berhasil mencapai *breakthrough* yang mampu memenangkan perlombaan sebagai model terbaik untuk problem klasifikasi objek visual pada dataset ImageNet, dimana model [AlexNet](https://papers.nips.cc/paper/2012/hash/c399862d3b9d6b76c8436e924a68c45b-Abstract.html) menjadi pemenang. 
+Setelah itu, bermunculanlah berbagai model *deep learning* seperti AlexNet dengan arsitektur yang lebih kompleks, e.g., GoogleNet, VGGNet, ResNet, XCeption, dan sebagainya.
+
+Model-model *deep learning* seperti yang disebutkan dapat diistilahkan dengan __backbone net__. Mengapa demikian?
+Karena ada temuan yang cukup fenomenal terkait model-model tersebut, yaitu dapat dimanfaatkan sebagai *backbone* untuk melakukan pekerjaan-pekerjaan lainnya terkait *computer vision* antara lain *object classification*, *detection*, *segmentation*, dan sebagainya.
+Dengan kata lain, *backbone net* yang sudah dilatih pada dataset ImageNet, yang terdiri dari 1000 kelas objek dengan total 1.2juta sampel data, memiliki sifat *transferable*!
+
 
 .....
 
