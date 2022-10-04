@@ -91,9 +91,23 @@ Skor evaluasi pekerjaan yang Anda lakukan mempertimbangkan hal-hal sebagai berik
 Pada tahun 2012, *deep learning* berhasil mencapai *breakthrough* yang mampu memenangkan perlombaan sebagai model terbaik untuk problem klasifikasi objek visual pada dataset ImageNet, dimana model [AlexNet](https://papers.nips.cc/paper/2012/hash/c399862d3b9d6b76c8436e924a68c45b-Abstract.html) menjadi pemenang. 
 Setelah itu, bermunculanlah berbagai model *deep learning* seperti AlexNet dengan arsitektur yang lebih kompleks, e.g., GoogleNet, VGGNet, ResNet, XCeption, dan sebagainya.
 
-Model-model *deep learning* seperti yang disebutkan dapat diistilahkan dengan __backbone net__. Mengapa demikian?
+Model-model *deep learning* seperti yang disebutkan dapat diistilahkan dengan __backbone net__. 
+
+Mengapa demikian?
 Karena ada temuan yang cukup fenomenal terkait model-model tersebut, yaitu dapat dimanfaatkan sebagai *backbone* untuk melakukan pekerjaan-pekerjaan lainnya terkait *computer vision* antara lain *object classification*, *detection*, *segmentation*, dan sebagainya.
 Dengan kata lain, *backbone net* yang sudah dilatih pada dataset ImageNet, yang terdiri dari 1000 kelas objek dengan total \~1.2 juta sampel data, memiliki sifat *transferable*!
+
+Temuan di atas melahirkan cara pragmatis yang disebut dengan __transfer learning__, yaitu memanfaatkan *backbone net* untuk menyelesaikan masalah apapun, terutama pada domain yang memiliki jumlah data latih yang sedikit.
+Secara umum ada 2 cara untuk melakukan __transfer learning__ tersebut:
+1. Metode __finetuning__: menggunakan *backbone net*, lalu menjalankan *retraining* keseluruhan pada dataset tujuan.
+2. Metode __feature extraction__: menggunakan *backbone net* hanya sebagai *feature extractor*, lalu melatih *classifier* sederhana pada dataset tujuan.
+
+Pada project ini Anda dapat menguji efektifitas dari transfer learning dengan menggunakan PyTorch untuk membentuk model klasifikasi pada dataset Office-31.
+
+*Deliverables* yang dikumpulkan (Format: [NIM]-[NAMALENGKAP]-IF5171-DL-2.zip) 
+- 
+
+
 
 
 
