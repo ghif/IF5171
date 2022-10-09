@@ -11,7 +11,7 @@ File-file di atas di simpan dalam format **[NIM]-[NamaLengkap]-UTS.zip** lalu di
 - (20 poin) Deliverables di atas dalam kondisi lengkap serta proses training berjalan dengan benar / tidak ada *runtime error* pada *training scripts*.
 - (+5 poin) Apabila mampu mencapai *test/validation accuracy* mencapai akurasi di atas 40%.
 
-#### Referensi/*Hints*
+#### *Hints*
 * Manfaatkan `dropout` atau `batch normalization` untuk mendapatkan akurasi prediksi yang lebih baik.
 	* nn.Dropout: https://pytorch.org/docs/stable/generated/torch.nn.Dropout.html
 	* nn.Dropout2d: https://pytorch.org/docs/stable/generated/torch.nn.Dropout2d.html
