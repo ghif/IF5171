@@ -1,4 +1,4 @@
-## Soal UTS (25 poin)
+## Soal UTS - Bagian 2 (25 poin)
 Implementasikan sebuah model deep learning dengan menggunakan PyTorch yang mampu memprediksi objek pada dataset CIFAR-100: https://pytorch.org/vision/stable/generated/torchvision.datasets.CIFAR100.html.
 
 #### Deliverables
