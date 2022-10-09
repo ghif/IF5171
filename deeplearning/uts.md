@@ -2,8 +2,10 @@
 Implementasikan sebuah model deep learning dengan menggunakan PyTorch yang mampu memprediksi objek pada dataset CIFAR-100: https://pytorch.org/vision/stable/generated/torchvision.datasets.CIFAR100.html.
 
 #### Deliverables
-- Notebook scripts yang mengimplementasikan algoritma *training* (ipynb / py)
-- 1 grafik/*line chart* yang menggambarkan progress akurasi terhadap waktu/epoch: sumbu x menunjukkan epoch, sumbu y menggambarkan skor akurasi (png / jpg)
+1. Notebook scripts yang mengimplementasikan algoritma *training* (ipynb / py)
+2. 1 grafik/*line chart* yang menggambarkan progress akurasi terhadap waktu/epoch: sumbu x menunjukkan epoch, sumbu y menggambarkan skor akurasi (png / jpg)
+
+File-file di atas di simpan dalam format **[NIM]-[NamaLengkap]-UTS.zip** lalu diunggah ke Edunex.
 
 #### Skor
 - (20 poin) Deliverables di atas dalam kondisi lengkap serta proses training berjalan dengan benar / tidak ada *runtime error* pada *training scripts*.
