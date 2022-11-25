@@ -11,8 +11,11 @@ Jika kombinasi tersebut merupakan kombinasi linear, maka model wajah tersebut di
 Ekspresi-ekspresi basis biasanya dibuat secara manual oleh ahli permodelan wajah 3D, dikenal dengan istilah *sculpting*.
 Proses manual ini bisa memakan waktu yang lama -- untuk membuat karakter Gollum pada film *Lord of The Rings* dibutuhkan 964 ekspresi basis!
 
-Pada praktikum ini kita mencoba untuk membuat model wajah dari *3D mesh* secara otomatis dengan memanfaatkan *unsupervised learning*.
-Data *3D mesh* dapat diunduh di [sini](https://1drv.ms/u/s!AgX5GEtworUahVDpJ7QDWgl4hgx6?e=DB29YD), yang merupakan sebagian sampel dataset yang dipakai pada [CoMA (Convolutional Mesh Autoencoders)](https://coma.is.tue.mpg.de/).
+Pada praktikum ini kita mencoba untuk membuat model wajah dari *3D mesh* secara otomatis dengan memanfaatkan *unsupervised learning* dalam konteks *generative model*.
+Data *3D mesh* dalam format [Polygon File (.ply)](https://en.wikipedia.org/wiki/PLY_(file_format)) dapat diunduh di [sini](https://1drv.ms/u/s!AgX5GEtworUahVDpJ7QDWgl4hgx6?e=DB29YD), yang merupakan sebagian sampel dataset yang dipakai pada [CoMA (Convolutional Mesh Autoencoders)](https://coma.is.tue.mpg.de/).
+
+Beberapa pekerjaan yang perlu kita lakukan adalah sebagai berikut:
+1. Tampilkan bentuk visual dari data original minimal 20 data 3D mesh dari wajah
 
 ...
 
