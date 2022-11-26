@@ -20,8 +20,8 @@ Beberapa pekerjaan yang perlu Anda lakukan adalah sebagai berikut:
 	Contoh:
 <img src="CoMA.png"  width="500" height="250">
 
-2. Bentuk / latih model wajah 3D secara *unsupervised* dengan menggunakan:
-	a. PCA (__x poin__)
+2. Bentuk / latih model wajah 3D secara *unsupervised* dengan menggunakan:\
+	a. PCA (__x poin__)\
 	b. Autoencoder (__x poin__)
 3. 
 
