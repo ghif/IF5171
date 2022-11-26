@@ -18,7 +18,7 @@ Data tersebut merupakan sebagian sampel dataset yang dipakai pada [CoMA (Convolu
 Beberapa pekerjaan yang perlu Anda lakukan adalah sebagai berikut:
 1. Visualisasikan data 3D mesh original minimal 10 wajah (__x poin__).
 	Contoh:
-<img src="CoMA.png"  width="450" height="300">
+<img src="CoMA.png"  width="500" height="250">
 
 2. Bentuk / latih model wajah 3D secara *unsupervised* dengan menggunakan:
 	a. PCA (__x poin__)
