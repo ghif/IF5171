@@ -16,15 +16,20 @@ Dataset *3D mesh* dalam format [Polygon File (.ply)](https://en.wikipedia.org/wi
 Data tersebut merupakan sebagian sampel dataset yang dipakai pada [CoMA (Convolutional Mesh Autoencoders)](https://coma.is.tue.mpg.de/).
 
 Beberapa pekerjaan yang perlu Anda lakukan adalah sebagai berikut:
-1. Visualisasikan data 3D mesh original minimal 10 wajah (__x poin__).\
+1. Visualisasikan wajah 3D mesh original minimal 10 wajah (__x poin__).\
 	Contoh:
 <img src="CoMA.png"  width="500" height="250">
 
 2. Bentuk / latih model wajah 3D secara *unsupervised* dengan menggunakan PCA.
 Pisahkan dataset asal menjadi 90% data *training* dan 10% data *test*. 
 Ukurlah performa hasil *training* dengan membandingkan wajah asli dan wajah rekonstruksi secara kuantitatif dengan *mean squared error*: 
-$\ell(\mathbf{x}, \hat{\mathbf{x}}) = || \mathbf{x} - \hat{\mathbf{x}} ||^2_2$.
+$\ell(\mathbf{x}, \hat{\mathbf{x}}) = || \mathbf{x} - \hat{\mathbf{x}} ||^2_2$ (__x poin__).\
 
-3. Visualisasikan 
+3. Visualisasikan hasil rekonstruksi wajah 3D mesh dari beberapa sampel pada data *test*, minimal 10 wajah (__x poin__)
 
+4. Visualisasikan dekodifikasi wajah 3D mesh dengan mengubah-ubah nilai salah satu kode atau elemen pada variabel *latent* $$ \mathbf{z} $$.
+Misalkan Anda memiliki variabel *latent* berdimensi 10, $$ \mathbf{z} = [z_1, \ldots, z_10] $$, ubah-ubahlah nilai dari hanya salah satu dimensi (misal, $$ z_1 $$), elemen-elemen lain ($$ z_2, \ldots, z_10$$) dibiarkan bernilai tetap. 
+Lalu dekodifikasikan 3D mesh terkait: $$ \hat{\mathbf{x}} = f_{\mathrm{dec}}(\mathbf{z}) $$, minimal 5 wajah (__x poin__)
+
+5. Ulangi langkah 2 - 5 dengan menggunakan Autoencoder (__x poin__).
 ...
