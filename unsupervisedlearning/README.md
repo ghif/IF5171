@@ -9,7 +9,7 @@ Jika kombinasi tersebut merupakan kombinasi linear, maka model wajah tersebut di
 
 Gambar berikut ini mengilustrasikan salah satu contoh dari *face blendshapes* dimana teks di sebelah kiri menunjukkan *controllable parameters* yang terasosiasi dengan ekspresi basis.
 
-<img src="face_puppet.png"  width="500" height="250">
+<img src="face_puppet.png"  width="400" height="300">
 
 Ekspresi-ekspresi basis biasanya dibuat secara manual oleh ahli permodelan wajah 3D, dikenal dengan istilah *sculpting*.
 Proses manual ini bisa memakan waktu yang lama -- untuk membuat karakter Gollum pada film *Lord of The Rings* dibutuhkan 964 ekspresi basis!
