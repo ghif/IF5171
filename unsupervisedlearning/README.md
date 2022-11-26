@@ -12,16 +12,17 @@ Ekspresi-ekspresi basis biasanya dibuat secara manual oleh ahli permodelan wajah
 Proses manual ini bisa memakan waktu yang lama -- untuk membuat karakter Gollum pada film *Lord of The Rings* dibutuhkan 964 ekspresi basis!
 
 Pada praktikum ini kita mencoba untuk membuat model wajah dari *3D mesh* secara otomatis dengan memanfaatkan *unsupervised learning* dalam konteks *generative model*.
-Data *3D mesh* dalam format [Polygon File (.ply)](https://en.wikipedia.org/wiki/PLY_(file_format)) dapat diunduh di [sini](https://1drv.ms/u/s!AgX5GEtworUahVDpJ7QDWgl4hgx6?e=DB29YD), yang merupakan sebagian sampel dataset yang dipakai pada [CoMA (Convolutional Mesh Autoencoders)](https://coma.is.tue.mpg.de/).
+Dataset *3D mesh* dalam format [Polygon File (.ply)](https://en.wikipedia.org/wiki/PLY_(file_format)) yang merepresentasikan seorang aktor dapat diunduh di [sini](https://1drv.ms/u/s!AgX5GEtworUahVDpJ7QDWgl4hgx6?e=DB29YD).
+Data tersebut merupakan sebagian sampel dataset yang dipakai pada [CoMA (Convolutional Mesh Autoencoders)](https://coma.is.tue.mpg.de/).
 
-Beberapa pekerjaan yang perlu kita lakukan adalah sebagai berikut:
-1. Tampilkan bentuk visual dari data original minimal 20 data 3D mesh dari wajah
+Beberapa pekerjaan yang perlu Anda lakukan adalah sebagai berikut:
+1. Visualisasikan data 3D mesh original minimal 10 wajah (__x poin__).
+	Contoh:
+<img src="CoMA.png"  width="450" height="300">
+
+2. Bentuk / latih model wajah 3D secara *unsupervised* dengan menggunakan:
+	a. PCA (__x poin__)
+	b. Autoencoder (__x poin__)
+3. 
 
 ...
-
-
-## Project #1: Variational Autoencoder on 2D Images 
-
-
-
-## Project #2: Creating 3D Face Model
