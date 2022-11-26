@@ -39,7 +39,7 @@ Lalu dekodifikasikan 3D mesh terkait: $\hat{\mathbf{x}} = f_{\mathrm{dec}}(\math
 6. Ulangi langkah 2 - 4 dengan menggunakan Autoencoder (__40 poin__).
 
 Seluruh *deliverables* praktikum dikumpulkan dalam file zip (Format penamaan: __[NIM]-[NAMALENGKAP]-IF5171-GM3D.zip__) yang berisi berkas-berkas sebagai berikut:
-- *Source codes* implementasi masing-masing dari PCA dan Autoencoder (dibebaskan dengan cara *scripting* di *notebook* atau menggunakan *native* Python).
+- *Source codes* implementasi masing-masing dari PCA dan Autoencoder (dibebaskan dengan cara *scripting* di *notebook* atau menggunakan *native* Python). Untuk manipulasi 3D mesh Anda dapat menggunakan [Open3D](http://www.open3d.org/).
 - Dokumentasi sederhana (file pdf) yang menunjukkan output dari langkah 1 - 6 di atas (*screenshot* visualisasi 3D mesh, angka *mean squared error*, dan sebagainya)
 
 *Submission deadline*: __Jumat, 2 Desember 2022, pukul 23:59 WIB__, pada platform Edunex.
