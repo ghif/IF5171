@@ -34,10 +34,12 @@ $\ell(\mathbf{x}, \hat{\mathbf{x}}) = || \mathbf{x} - \hat{\mathbf{x}} ||^2_2$ (
 Misalkan Anda memiliki variabel *latent* berdimensi 10, $\mathbf{z} = [z_1, \ldots, z_{10}]$, ubah-ubahlah nilai dari hanya salah satu dimensi (misal, $z_1$), elemen-elemen lain dibiarkan bernilai tetap. 
 Lalu dekodifikasikan 3D mesh terkait: $\hat{\mathbf{x}} = f_{\mathrm{dec}}(\mathbf{z})$, minimal 5 wajah (__10 poin__).
 
-5. Ulangi langkah 2 - 4 dengan menggunakan Autoencoder (__45 poin__).
+5. Visualisasikan 20 *principal components* dengan *eigenvalues* tertinggi (__5 poin__).
+
+6. Ulangi langkah 2 - 4 dengan menggunakan Autoencoder (__40 poin__).
 
 Seluruh *deliverables* praktikum dikumpulkan dalam file zip (Format penamaan: __[NIM]-[NAMALENGKAP]-IF5171-GM3D.zip__) yang berisi berkas-berkas sebagai berikut:
 - *Source codes* implementasi masing-masing dari PCA dan Autoencoder (dibebaskan dengan cara *scripting* di *notebook* atau menggunakan *native* Python).
-- Dokumentasi sederhana (file pdf) yang menunjukkan output dari langkah 1 - 5 di atas (*screenshot* 3D mesh, angka *mean squared error*, dan sebagainya )
+- Dokumentasi sederhana (file pdf) yang menunjukkan output dari langkah 1 - 6 di atas (*screenshot* visualisasi 3D mesh, angka *mean squared error*, dan sebagainya)
 
 *Submission deadline*: __Jumat, 2 Desember 2022, pukul 23:59 WIB__, pada platform Edunex.
