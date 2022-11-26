@@ -7,6 +7,9 @@ Dalam konteks model wajah 3D, suatu ekspresi wajah biasanya dihubungkan dengan s
 Kita dapat membangun sebuah model wajah 3D dengan membentuk kumpulan __ekspresi basis__ beserta parameter terkait, dimana rentang ekspresi dari wajah tersebut terwakili dengan kombinasi dari ekspresi basis.
 Jika kombinasi tersebut merupakan kombinasi linear, maka model wajah tersebut disebut dengan [*face blendshapes*](https://diglib.eg.org/bitstream/handle/10.2312/egst.20141042.199-218/199-218.pdf?sequence=1&isAllowed=y), yang sangat populer penggunaannya di industri film.
 
+Gambar berikut ini mengilustrasikan salah satu contoh dari *face blendshapes* dimana teks di sebelah kiri menunjukkan *controllable parameters* yang terasosiasi dengan ekspresi basis.
+
+<img src="face_puppet.png"  width="500" height="250">
 
 Ekspresi-ekspresi basis biasanya dibuat secara manual oleh ahli permodelan wajah 3D, dikenal dengan istilah *sculpting*.
 Proses manual ini bisa memakan waktu yang lama -- untuk membuat karakter Gollum pada film *Lord of The Rings* dibutuhkan 964 ekspresi basis!
