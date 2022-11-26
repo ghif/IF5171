@@ -37,4 +37,4 @@ Seluruh *deliverables* praktikum dikumpulkan dalam file zip (Format penamaan: __
 - *Source codes* implementasi masing-masing dari PCA dan Autoencoder (dibebaskan dengan cara *scripting* di *notebook* atau menggunakan *native* Python).
 - Dokumentasi sederhana (file pdf) yang menunjukkan output dari langkah 1 - 5 di atas (*screenshot* 3D mesh, angka *mean squared error*, dan sebagainya )
 
-Deadline: __Jumat, 2 Desember 2022, pukul 23:59 WIB__.
+*Submission deadline*: __Jumat, 2 Desember 2022, pukul 23:59 WIB__, pada platform Edunex.
