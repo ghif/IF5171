@@ -22,7 +22,7 @@ Beberapa pekerjaan yang perlu Anda lakukan adalah sebagai berikut:
 
 2. Bentuk / latih model wajah 3D secara *unsupervised* dengan menggunakan PCA.
 Pisahkan dataset asal menjadi 90% data *training* dan 10% data *test*. 
-Ukurlah performa hasil *training* dengan membandingkan wajah asli dan wajah rekonstruksi secara kuantitatif dengan *mean squared error*: 
+Ukurlah performa model dengan membandingkan wajah asli dan wajah rekonstruksi baik pada data *training* maupun data *test*, secara kuantitatif dengan *mean squared error*: 
 $\ell(\mathbf{x}, \hat{\mathbf{x}}) = || \mathbf{x} - \hat{\mathbf{x}} ||^2_2$ (__25 poin__).
 
 3. Visualisasikan hasil rekonstruksi wajah 3D mesh dari beberapa sampel pada data *test*, minimal 10 wajah (__10 poin__).
@@ -34,5 +34,7 @@ Lalu dekodifikasikan 3D mesh terkait: $\hat{\mathbf{x}} = f_{\mathrm{dec}}(\math
 5. Ulangi langkah 2 - 4 dengan menggunakan Autoencoder (__45 poin__).
 
 Seluruh *deliverables* praktikum dikumpulkan dalam file zip (Format penamaan: __[NIM]-[NAMALENGKAP]-IF5171-GM3D.zip__) yang berisi berkas-berkas sebagai berikut:
-- *Source code* implementasi masing-masing dari PCA dan Autoencoder (dibebaskan dengan cara *scripting* di *notebook* atau menggunakan *native* Python).
-- 
+- *Source codes* implementasi masing-masing dari PCA dan Autoencoder (dibebaskan dengan cara *scripting* di *notebook* atau menggunakan *native* Python).
+- Dokumentasi sederhana (file pdf) yang menunjukkan output dari langkah 1 - 5 di atas (*screenshot* 3D mesh, angka *mean squared error*, dan sebagainya )
+
+Deadline: __Jumat, 2 Desember 2022, pukul 23:59 WIB__.
